@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sian Tecnology S.R.L. - Servizi</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    
+</head>
+
+<body>
+
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NZG7M8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NZG7M8');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Smooth scroll -->
+    <script>
+        $('a[href*=#]').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var $target = $(this.hash);
+                $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+                if ($target.length) {
+                    var targetOffset = $target.offset().top;
+                    $('html,body').animate({
+                        scrollTop: targetOffset
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    </script>
+    <!-- Navigazione -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand e toggle raggruppati per migliore visibilita mobile -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-left" href="index.html">
+                    <img alt="Sian Tecnology SRL" src="images/logo-navbar.png" class="brand navbar-brand"></a>
+            </div>
+            <!-- Collezzione nav-links e altro materiale -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">Su di noi</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="services.html">Servizi</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contatti</a>
+                    </li>
+                    <li>
+                        <a href="#">Download</a>
+                    </li>
+                    <!--TODO: inserire foto & company 
+                    <li>
+                        <a href="portfolio-3-col.html" class="disabled">Portfolio</a>
+                    </li>
+                    -->
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Informazioni<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <!--
+                            <li>
+                                <a href="pricing.html">Prodotti</a>
+                            </li> 
+                            -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+            <!-- /.container -->
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header line-color2"><font color="#fffffff">Servizi</font>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Servizi</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Image Header -->
+        <!--
+        <div class="row">
+            <div class="col-lg-12">
+                <img class="img-responsive" src="images/mix-homepage.png" alt="Ci occupiamo di: Elettricita , Idraulica , Domotica e Sicurezza">
+            </div>
+        </div>
+        -->
+        <!-- /.row -->
+
+        <!-- Service Panels -->
+        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+        <div class="row">
+            <!-- 
+            <div class="col-lg-12">
+                <h2 class="page-header">Certificazioni</h2>
+            </div>
+            -->
+            <div class="col-md-3 col-sm-6 button">
+                <a href="#">
+                    <div class="panel panel-default text-center" id="noborder">
+                        <div class="panel-body">
+                            <h4>Elettricita e Elettronica</h4>
+                        </div>
+                        <hr style="margin-bottom: -8%">
+                        <div class="panel-heading" style="border-radius: 0% 0% 15% 15%;">
+                            <span class="fa-stack fa-5x">
+                              <img src="images/social/1_ELECTRIC.png" width="90%" height="90%">
+
+                        </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 button">
+                <a href="#mytab1">
+                    <div class="panel panel-default text-center">
+
+                        <div class="panel-body">
+                            <h4>Idraulica</h4>
+                        </div>
+                        <hr style="margin-bottom: -8%">
+                        <div class="panel-heading" style="border-radius: 0% 0% 15% 15%;">
+                            <span class="fa-stack fa-5x">
+                              <img src="images/social/2_IDRAULIC.png" width="90%" height="90%">
+
+                        </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 button">
+                <a href="#mytab2">
+                    <div class="panel panel-default text-center">
+
+                        <div class="panel-body">
+                            <h4>Energie Rinnovabili</h4>
+                        </div>
+                        <hr style="margin-bottom: -8%">
+                        <div class="panel-heading" style="border-radius: 0% 0% 15% 15%;">
+                            <span class="fa-stack fa-5x">
+                              <img src="images/social/3_RECYRCLE.png" width="90%" height="90%">
+
+                        </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 button">
+                <a href="#mytab3">
+                    <div class="panel panel-default text-center">
+
+                        <div class="panel-body">
+                            <h4>Certificazioni</h4>
+                        </div>
+                        <hr style="margin-bottom: -8%">
+                        <div class="panel-heading" style="border-radius: 0% 0% 15% 15%;">
+                            <span class="fa-stack fa-5x">
+                              <img src="images/social/4_CERTIFIED.png" width="90%" height="90%">
+
+                        </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Service Tabs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header line-color"><font color="#fffffff">Elettricita e Elettronica</font></h2>
+            </div>
+            <div class="col-lg-12">
+
+                <ul class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="#service-one" data-toggle="tab"><i class="fa fa-wrench"></i>Civile e Industriale</a>
+                    </li>
+                    <li class=""><a href="#service-two" data-toggle="tab"><i class="fa fa-flash"></i> Domotica</a>
+                    </li>
+                    <li class=""><a href="#service-three" data-toggle="tab"><i class="fa fa-bell"></i> Illuminazione</a>
+                    </li>
+                    <li class=""><a href="#service-four" data-toggle="tab"><i class="fa fa-database"></i> Sicurezza</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div class="tab-pane fade active in" id="service-one">
+                        <h4>Industriale e Civile</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                    </div>
+                    <div class="tab-pane fade" id="service-two">
+                        <h4>Domotica</h4>
+                        <p>La tecnologia sta facendo passi da gigante nel settore elettrico ed elettronico. Dall'innovazione di entrambi è nata la domotica.</p>
+                        <p>Il controllo remoto della tua abitazione grazie all'utilizzo di tablet, smartphone e pannelli di controllo ti permette di gestire ogni parte del sistema (illuminazione, automazione, termoidraulica, filodiffusione, citofonia, videosorveglianza etc.) migliorando lo stile di vita, con una maggiore sicurezza e una migliore gestione dei consumi.</p>
+                        <p>Un occhio particolare viene posto a coloro che soffrono di invalidità, avendo la possibilità ad esempio di aprire una porta, accendere la luce o alzare le tapparelle donando una certa autonomia.</p>
+                    </div>
+                    <div class="tab-pane fade" id="service-three">
+                        <h4>Illuminazione</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                    </div>
+                    <div class="tab-pane fade" id="service-four">
+                        <h4>Sicurezza</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Service List -->
+
+        <!-- Service Tabs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <a name="mytab1" class="anchor"><hr></a>
+                <h2 class="page-header line-color" id="#mytab1" style="margin-top:-1%;"><font color="#fffffff">Idraulica</font></h2>
+            </div>
+            <div class="col-lg-12">
+
+                <ul class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="#service-five" data-toggle="tab"><i class="fa fa-wrench"></i> Industriale e Civile</a>
+                    </li>
+                    <li class=""><a href="#service-six" data-toggle="tab"><i class="fa fa-flash"></i> Riscaldamento</a>
+                    </li>
+                    <li class=""><a href="#service-seven" data-toggle="tab"><i class="fa fa-bell"></i> Condizionatori e Pompe di calore</a>
+                    </li>
+                    <li class=""><a href="#service-eight" data-toggle="tab"><i class="fa fa-database"></i> Caldaie a condensazione </a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div class="tab-pane fade active in" id="service-five">
+                        <h4>Industriale e Civile</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                    </div>
+                    <div class="tab-pane fade" id="service-six">
+                        <h4>Industriale e Civile</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                    </div>
+                    <div class="tab-pane fade" id="service-seven">
+                        <h4>Condizionatori e pompe di calore</h4>
+                        <p>Il caldo del periodo estivo, il freddo dell'inverno e l'eccessiva umidità spesso diventano un problema difficile da gestire per molti. Installando nella vostra abitazione o nel vostro ufficio un impianto di condizionamento o una pompa di calore potrete vivere più comodamente la giornata.</p>
+                        <p>Senza la necessità di opere murarie, i nostri tecnici installeranno dove vorrete dispositivi emettitori di aria che attraverso il collegamento con un'unità esterna vi permemetterà di avere un ambiente (in base alle stagioni) fresco o caldo e deumidificato migliorando non solo il clima ma anche la salute.</p>
+                        <p>Inoltre utilizzando la pompa di calore per il riscaldamento potreste avere un ulteriore risparmio, non aver più bisogno della fornitura di gas, eliminando così una fornitura e gestendo il calore di radiatori e acqua sanitaria con esso.</p>
+                    </div>
+                    <div class="tab-pane fade" id="service-eight">
+                        <h4>Caldaie a condensazione</h4>
+                        <p>Se state pensando di cambiare la vostra vecchia caldaia con una più moderna la soluzione migliore é la caldaia a condensazione. La differenza rispetto ad una normale caldaia sta nel recupero del calore nascosto nei fumi di scarico durante l'espulsione.</p>
+                        <p>Questo permette un maggior rendimendo che può superare addirittura il 90%.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Service Tabs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <a name="mytab2" class="anchor"><hr></a>
+                <h2 class="page-header line-color" style="margin-top:-1%;"><font color="#fffffff">Energie Rinnovabili</font></h2>
+            </div>
+            <div class="col-lg-12">
+
+                <ul class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="#service-nine" data-toggle="tab"><i class="fa fa-wrench"></i> Fotovoltaico</a>
+                    </li>
+                    <li class=""><a href="#service-ten" data-toggle="tab"><i class="fa fa-flash"></i> Solare termico</a>
+                    </li>
+                    <li class=""><a href="#service-eleven" data-toggle="tab"><i class="fa fa-flash"></i> Termodinamico</a>
+                    </li>
+                    <li class=""><a href="#service-ten" data-toggle="tab"><i class="fa fa-flash"></i> Controllo remoto</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div class="tab-pane fade active in" id="service-nine">
+                        <h4>Industriale e Civile</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                    </div>
+                    <div class="tab-pane fade" id="service-ten">
+                        <h4>Industriale e Civile</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                    </div>
+                    <div class="tab-pane fade" id="service-eleven">
+                        <h4>Sicurezza e Controllo</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                    </div>
+                    <div class="tab-pane fade" id="service-twelve">
+                        <h4>Come prima...</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Service List -->
+        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Servizi offerti</h2>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Idraulica civile</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Idraulica Industriale</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-support fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Elettronica Civile</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Elettronica Industriale</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-bomb fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Videosorveglianza</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-bank fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Sistemi di sicurezza</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Gestione e affitto microcamere</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-space-shuttle fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Service Eight</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-recycle fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Service Nine</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Sian Tecnology SRL 2014-2016</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script>
+        $(document).ready(
+
+            function () {
+
+                $("html").niceScroll();
+
+            }
+
+        );
+    </script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
