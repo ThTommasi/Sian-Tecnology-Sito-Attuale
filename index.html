@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Sian Tecnology S.R.L. - Azienda installazione e distribuzione sistemi di sicurezza , apparecchiature fotovoltaice , fototermiche , e idrauliche">
     <meta name="author" content="Sian Tecnology S.R.L.">
+    <meta name="keywords" content="Impianti,elettricita,sicurezza,elettronica,idraulica,idraulico,elettricista,impianto">
 
     <title>Sian Tecnology S.R.L.</title>
 
@@ -27,35 +28,39 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <script src="//use.edgefonts.net/aguafina-script.js"></script>
+
+
 </head>
 
 <body>
 
-    <!-- Google Tag Manager -->
-    <noscript>
-        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NZG7M8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
+    <!-- Google analytics-->
     <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-NZG7M8');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-73637144-1', 'auto');
+        ga('send', 'pageview');
+        ga('create', 'UA-XXXX-X');
+        ga('require', 'linkid');
+        ga('send', 'pageview');
     </script>
-    <!-- End Google Tag Manager -->
-    
-        <!-- Navigazione -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+    <!-- Fine google analytics-->
+
+    <!-- Navigazione -->
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid shadow">
             <!-- Brand e toggle raggruppati per migliore visibilita mobile -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -65,65 +70,32 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-left" href="index.html">
-                    <img alt="Sian Tecnology SRL" src="images/logo-navbar.png" class="brand navbar-brand"></a>
+                    <img alt="Sian Tecnology SRL" src="images/Logo_Sian_Mini_Navbar.png" class="brand navbar-brand"></a>
             </div>
             <!-- Collezzione nav-links e altro materiale -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">Su di noi</a>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Chi siamo</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servizi<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                       <li class="menu-item dropdown dropdown-submenu">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Impianti elettrici<b class="caret"></b></a>
-                           <ul class="dropdown-menu">
-                          <li>
-                              <a href="Elettrico.html">Civili</a> 
-                               </li> 
-                               <li>
-                              <a href="Elettrico-ind.html">Industriali</a> 
-                               </li> 
-                               <li>
-                              <a href="domotica.html">Domotica</a> 
-                               </li> 
-                               <li>
-                              <a href="sicurezza.html">Sicurezza</a> 
-                               </li> 
-                               <li>
-                              <a href="fotovoltaico.html">Fotovoltaico</a> 
-                               </li> 
-                               <li>
-                              <a href="illuminazione.html">Illuminazione</a> 
-                               </li> 
-                           </ul>
-                            </li> 
-                            <li class="menu-item dropdown dropdown-submenu">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Impianti Idraulici<b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Civili</a></li>
-                                    <li><a href="#">Industriali</a></li>
-                                    <li><a href="#">Condizionamento</a></li>
-                                    <li><a href="#">Pompe di calore</a></li>
-                                    <li><a href="#">Solare termico</a></li>
-                                    <li><a href="#">Termo Dinamico</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                            <a href="#">Certificazioni</a>
-                            </li>
-                        </ul>
+                        <a href="services.html">Servizi</a>
                     </li>
                     <li>
                         <a href="contact.html">Contatti</a>
+                    </li>
+                    <li>
+                        <a href="download-page.html">Download</a>
                     </li>
                     <!--TODO: inserire foto & company 
                     <li>
                         <a href="portfolio-3-col.html" class="disabled">Portfolio</a>
                     </li>
                     -->
-                    <li>
+                    <!--  <li>
                         <a href="#">Blog</a>
                     </li>
                     <li class="dropdown">
@@ -134,52 +106,53 @@
                             </li>
                             <li>
                                 <a href="pricing.html">Prodotti</a>
-                            </li>
+                            </li> 
                         </ul>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
+            <!-- /.container -->
         </div>
-        <!-- /.container -->
     </nav>
-    
     <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
+    <header id="myCarousel" class="carousel slide shadow">
         <!-- indicatori -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <!-- <li data-target="#myCarousel" data-slide-to="3"></li> -->
         </ol>
 
         <!-- Wrapper foto slide -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" id="stylethree"></div>
-                <div class="carousel-caption">
-                    <h2>Prima Slide</h2>
-                </div>
-            </div>
-            <div class="item">
                 <div class="fill" id="styleone"></div>
-                <div class="carousel-caption">
-                    <h2>Seconda Slide</h2>
-                </div>
+                <!-- <div class="carousel-caption">
+                    <h2>Prima Slide</h2>
+                </div> -->
             </div>
             <div class="item">
                 <div class="fill" id="styletwo"></div>
-                <div class="carousel-caption">
-                    <h2>Terza slide</h2>
-                </div>
+                <!-- <div class="carousel-caption">
+                    <h2>Seconda Slide</h2>
+                </div> -->
             </div>
+            <div class="item">
+                <div class="fill" id="stylethree"></div>
+                <!-- <div class="carousel-caption">
+                    <h2>Terza slide</h2>
+                </div> -->
+            </div>
+            <!--
             <div class="item">
                 <div class="fill" id="stylefour"></div>
                 <div class="carousel-caption">
                     <h2>Quarta slide</h2>
                 </div>
             </div>
+            -->
         </div>
 
         <!-- Controlli -->
@@ -189,172 +162,403 @@
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
             <span class="icon-next"></span>
         </a>
+        <div class="col-md-12 text-center panel panel-default-inverted shadow hidden-xs hidden-sm text-uppercase">
+            <div class="col-md-3">
+                <h4><b>Tecnologia</b></h4>
+            </div>
+            <div class="col-md-3">
+                <h4><b>Esperienza</b></h4>
+            </div>
+            <div class="col-md-3">
+                <h4><b>Affidabilità</b></h4>
+            </div>
+            <div class="col-md-3">
+                <h4><b>Innovazione</b></h4>
+            </div>
+        </div>
     </header>
-
     <!-- Contenuto pagina -->
-    <div class="container">
+    <div class="container shadow">
 
         <!-- Marketing -->
         <div class="row">
-            <hr>
             <div class="col-md-7">
-            <div class="col-md-6">
-                <div class="panel panel-default circular button square">
-                    <div class="panel-body">
-                       <h3><i class="fa fa-fw fa-flash"> </i> Impianti Elettrici</h3>
+                <div class="col-md-6">
+                    <h3 class="line-color-elettronica"><i class="fa fa-fw fa-flash"></i> Elettricità e Elettronica </h3>
+                    <hr>
+                    <div class="well shadow h4">
+                        <p>
+                            <ul class="textdeco">
+                                <li><i class="fa fa-flash"></i> Civile e industriale</li>
+                                <li> <i class="fa fa-flash"></i> Domotica</li>
+                                <li> <i class="fa fa-flash"></i> Illuminazione</li>
+                                <li> <i class="fa fa-flash"></i> Sicurezza</li>
+                            </ul>
+                            <br>
+                            <br>
+                            <div class="pull-right">
+                                <a href="services.html#mytab" style="text-decoration:none;color: #000000">
+                                    <button class="btn btn-red shadow">Maggiori informazioni</button>
+                                </a>
+                            </div>
+                            <br>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="line-color-idraulica"><i class="fa fa-fw fa-tint"></i> Idraulica </h3>
+                    <hr>
+                    <div class="well shadow h4">
+                        <p>
+                            <ul class="textdeco">
+                                <li><i class="fa fa-tint"></i> Industriale e civile</li>
+                                <li><i class="fa fa-tint"></i> Riscaldamento</li>
+                                <li><i class="fa fa-tint"></i> Condizionamento</li>
+                                <li><i class="fa fa-tint"></i> Caldaie a condensazione</li>
+                            </ul>
+                            <br>
+                            <br>
+                            <div class="pull-right">
+                                <a href="services.html#mytab1" style="text-decoration:none;color: #000000">
+                                    <button class="btn btn-light-blue shadow">Maggiori informazioni</button>
+                                </a>
+                            </div>
+                            <br>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="line-color-ER"><i class="fa fa-fw fa-refresh"></i> Energie Rinnovabili </h3>
+                    <hr>
+                    <div class="well shadow h4">
+                        <p>
+                            <ul class="textdeco">
+                                <li><i class="fa fa-refresh"></i> Fotovoltaico</li>
+                                <li><i class="fa fa-refresh"></i> Solare termico</li>
+                                <li><i class="fa fa-refresh"></i> Termodinamico</li>
+                                <li><i class="fa fa-refresh"></i> Controllo remoto</li>
+                            </ul>
+                            <br>
+                            <br>
+                            <div class="pull-right">
+                                <a href="services.html#mytab2" style="text-decoration:none;color: #000000">
+                                    <button class="btn btn-green shadow">Maggiori informazioni</button>
+                                </a>
+                            </div>
+                            <br>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="line-color-certificazioni"><i class="fa fa-fw fa-list-alt"></i> Certificazioni </h3>
+                    <hr>
+                    <div class="well shadow h4">
+                        <p>
+                            <ul class="textdeco">
+                                <li class="text-deco"><i class="fa fa-list-alt"></i> Abilitazione Impianti</li>
+                                <li class="text-deco"><i class="fa fa-list-alt"></i> Collaudi e Revisioni</li>
+                                <li class="text-deco"><i class="fa fa-list-alt"></i> Riqualificazione</li>
+                            </ul>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="pull-right">
+                                <a href="services.html#mytab3" style="text-decoration:none;color: #000000">
+                                    <button class="btn btn-yellow shadow">Maggiori informazioni</button>
+                                </a>
+                            </div>
+                            <br>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="panel panel-default circular button square">
-                    <div class="panel-body">
-                       <h3><i class="fa fa-fw fa-wrench"></i> Impianti Idraulici </h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="panel panel-default circular button square">
-                    <div class="panel-body">
-                        <h3><i class="fa fa-fw fa-compass"></i> Certificazioni </h3>
-                    </div>
-                </div>
-            </div>
-                        <div class="col-md-6">
-                <div class="panel panel-default circular button square">
-                    <div class="panel-body">
-                        <h3><i class="fa fa-fw fa-compass"></i> Certificazioni </h3>
-                    </div>
-                </div>
-           </div>
-            </div>
+
+
             <div class="col-md-5 fullpage">
-                            <div class="col-md-12 col-xs-12">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i> Menu2nd </h4>
-                    </div>
-                    <div class="panel-body">
-                        <p><br><br><br><br><br><br><br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Piu informazioni</a>
+
+                <div class="panel-group font-open-sans shadow" id="accordion">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title text-uppercase text-center">
+                                News e Info
+                            </h4>
+                        </div>
+                        <div class="panel-body">
+                            <div class="panel-body col-md-12 text-center" id="feed">
+                                <!-- start feedwind code -->
+                                <!-- start feedwind code -->
+                                <script type="text/javascript">
+                                    document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');
+                                </script>
+                                <script type="text/javascript">
+                                    (function () {
+                                        var params = {
+                                            rssmikle_url: "http://www.gse.it/_layouts/GSE_Portal2011.Structures/GenerateFeedRSSNews.aspx",
+                                            rssmikle_frame_width: "300",
+                                            rssmikle_frame_height: "400",
+                                            frame_height_by_article: "6",
+                                            rssmikle_target: "_blank",
+                                            rssmikle_font: "Arial, Helvetica, sans-serif",
+                                            rssmikle_font_size: "12",
+                                            rssmikle_border: "off",
+                                            responsive: "off",
+                                            rssmikle_css_url: "",
+                                            text_align: "left",
+                                            text_align2: "left",
+                                            corner: "off",
+                                            scrollbar: "on",
+                                            autoscroll: "on",
+                                            scrolldirection: "up",
+                                            scrollstep: "3",
+                                            mcspeed: "20",
+                                            sort: "Off",
+                                            rssmikle_title: "off",
+                                            rssmikle_title_sentence: "",
+                                            rssmikle_title_link: "",
+                                            rssmikle_title_bgcolor: "#0066FF",
+                                            rssmikle_title_color: "#FFFFFF",
+                                            rssmikle_title_bgimage: "",
+                                            rssmikle_item_bgcolor: "#FFFFFF",
+                                            rssmikle_item_bgimage: "",
+                                            rssmikle_item_title_length: "55",
+                                            rssmikle_item_title_color: "#0066FF",
+                                            rssmikle_item_border_bottom: "on",
+                                            rssmikle_item_description: "on",
+                                            item_link: "on",
+                                            rssmikle_item_description_length: "150",
+                                            rssmikle_item_description_color: "#666666",
+                                            rssmikle_item_date: "gl1",
+                                            rssmikle_timezone: "Etc/GMT",
+                                            datetime_format: "%b %e, %Y %l:%M %p",
+                                            item_description_style: "text+tn",
+                                            item_thumbnail: "full",
+                                            item_thumbnail_selection: "auto",
+                                            article_num: "15",
+                                            rssmikle_item_podcast: "off",
+                                            keyword_inc: "",
+                                            keyword_exc: ""
+                                        };
+                                        feedwind_show_widget_iframe(params);
+                                    })();
+                                </script>
+                                <div style="font-size:10px; text-align:center; width:300px;"><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a>
+                                    <!--Please display the above link in your web page according to Terms of Service.-->
+                                </div>
+                                <!-- end feedwind code -->
+                                <!--  end  feedwind code -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        
-            <div class="col-md-12 text-center">
-                <ul class="list-unstyled list-inline list-social-icons">
-                    <li>
-                        <a href="#"><i class="fa fa-facebook-square fa-5x fade-icon"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-pinterest-square fa-5x fade-pinterest"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-twitter-square fa-5x fade-icon"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-google-plus-square fa-5x fade-google"></i></a>
-                    </li>
-                </ul>
-            </div>
+
+                <div class="col-md-12 text-center">
+                    <ul class="list-unstyled list-inline list-social-icons">
+                        <li>
+                            <a href="https://www.facebook.com/SianSRL"><i class="fa fa-facebook-square fa-5x fade-icon"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://it.pinterest.com/siantecnology/"><i class="fa fa-pinterest-square fa-5x fade-pinterest pinterest"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/SIAN_TECNOLOGY"><i class="fa fa-twitter-square fa-5x fade-icon twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://it.linkedin.com/in/sian-tecnology-05b224116
+"><i class="fa fa-linkedin-square fa-5x fade-google"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         <!-- /.row -->
         <hr>
         <!--Noleggio-->
         <div class="row">
-        <div class="col-md-12">
-           <img src="images/HQmusica.jpg" width="100%" height="100%;" alt="Sian SRL - Noleggio impianti audio per feste e eventi" style="border: 1px solid black"> 
+            <div class="col-md-12">
+                <img src="images/HQmusica.png" width="100%" height="100%;" alt="Sian SRL - Noleggio impianti audio per feste e eventi" style="border: 1px solid black">
             </div>
         </div>
-        
+
         <!-- Portfolio Section -->
         <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Brands</h2>
+            <div class="page-header h1 text-center font-background-grey"><b><i>ALCUNE DEI NOSTRI MARCHI</i></b></div>
+            <div class="col-md-6">
+                <div class="col-md-12">
+                    <h4 class="page-header text-uppercase"><b>Per il settore elettrico</b></h4>
+                </div>
+                <div class="col-md-6 pagination-centered text-center col-sm-2">
+                    <a href="http://www.abb.com/">
+                        <img class="img-responsive img-portfolio img-hover" src="images/loghi/Electric/ABB_Partner.png" alt="Partner Sian Tecnology - ABB Europe">
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-2 pagination-centered text-center">
+                    <a href="http://www.hager.it/">
+                        <img class="img-responsive img-portfolio img-hover" src="images/loghi/Electric/Hager.png" alt="Brand utilizzato da Sian Tecnology - Hager International">
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-2 pagination-centered text-center">
+                    <a href="http://www.schneider-electric.it/it/">
+                        <img class="img-responsive img-portfolio img-hover" src="images/loghi/Electric/Schneider_electric.png" alt="Brand utilizzato da Sian Tecnology - Schneider Electric">
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-2 pagination-centered text-center">
+                    <a href="www.siemens.it">
+                        <img class="img-responsive img-portfolio img-hover" src="images/loghi/Electric/Siemes.png" alt="Brand utilizzato da Sian Tecnology - Siemens Italia">
+                    </a>
+                </div>
             </div>
-            <div class="col-md-4 col-sm-6 pagination-centered text-center">
-                <a href="http://www.abb.com/">
-                    <img class="img-responsive img-portfolio img-hover" src="images/Logo-ABB.jpg" alt="Partner Sian Tecnology - ABB Europe">
-                </a>
+            <div class="col-md-6">
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <h4 class="page-header text-uppercase"><b>Per il settore idraulico</b></h4>
+                    </div>
+                    <div class="col-md-6 col-sm-2 pagination-centered text-center">
+                        <a href="https://www.buderus.it">
+                            <img src="images/loghi/idro/Buderus.png" class="img-responsive img-portfolio img-hover" alt="Brand utilizzato da Sian Tecnology - Buderus">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-2 pagination-centered text-center">
+                        <a href="http://www.immergas.com/">
+                            <img src="images/loghi/idro/Immergas.png" class="img-responsive img-portfolio img-hover" alt="Brand utilizzato da Sian Tecnology - Immergas">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-2 pagination-centered text-center">
+                        <a href="https://www.mitsubishielectric.it/it/">
+                            <img src="images/loghi/idro/Mitsubishi_Electric.png" class="img-responsive img-portfolio img-hover" alt="Brand utilizzato da Sian Tecnology - Mitsubishi Electric International">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-2 pagination-centered text-center">
+                        <a href="http://www.viessmann.it/">
+                            <img src="images/loghi/idro/viesman.png" class="img-responsive img-portfolio img-hover" alt="Brand utilizzato da Sian Tecnology - Viesmann">
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="https://www.q-cells.com/">
-                    <img class="img-responsive img-portfolio img-hover" src="images/Logo-Qcells.jpg" alt="Partner Sian Tecnology - Q-Cell's International">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="http://benq.eu/">
-                    <img class="img-responsive img-portfolio img-hover" src="images/Logo-benq.png" alt="Brand utilizzato da Sian Tecnology - Benq">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="http://www.lg.com/it">
-                    <img class="img-responsive img-portfolio img-hover" src="images/logo-LG.png" alt="Brand utilizzato da Sian Tecnology - LG International">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="http://www.wuerth.com">
-                    <img class="img-responsive img-portfolio img-hover" src="images/logo-wurth.png" alt="Brand utilizzato da Sian Tecnology - Wurth">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="http://www.solaredge.com/">
-                    <img class="img-responsive img-portfolio img-hover" src="images/logo-solar.png" alt="Brand utilizzato da Sian Tecnology - SolarEdge">
-                </a>
-            </div>
-        </div>
-        <!-- /.row -->
-        <hr>
-        <!-- Call to Action -->
-        <div class="well">
+            <!-- /.row -->
+            <!-- row -->
             <div class="row">
-                <div class="col-md-8">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-                </div>
-                <div class="col-md-4">
-                    <a class="btn btn-lg btn-default btn-block" href="#">Cerchiamo te !</a>
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <h4 class="page-header text-uppercase" style="margin-top:-1%;"><b>Per il settore delle energie rinnovabili</b></h4>
+                    </div>
+                    <div class="col-md-3 pagination-centered text-center col-sm-2">
+                        <a href="http://www.abb.com/">
+                            <img class="img-responsive img-portfolio img-hover" src="images/loghi/solar/QCells_partner.png" alt="Partner Sian Tecnology - Qcells Europe">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-2 pagination-centered text-center">
+                        <a href="http://www.coenergia.com/">
+                            <img class="img-responsive img-portfolio img-hover" src="images/loghi/solar/coenergia.png" alt="Brand utilizzato da Sian Tecnology - COenergia">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-2 pagination-centered text-center">
+                        <a href="http://www.fronius.com/cps/rde/xchg/fronius_italia">
+                            <img class="img-responsive img-portfolio img-hover" src="images/loghi/solar/Fronius.png" alt="Brand utilizzato da Sian Tecnology - Fronius">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-2 pagination-centered text-center">
+                        <a href="http://www.solaredge.it/">
+                            <img class="img-responsive img-portfolio img-hover" src="images/loghi/solar/Solar_Edge.png" alt="Brand utilizzato da Sian Tecnology - SolarEdge Italia">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-2 pagination-centered text-center">
+                        <a href="http://www.vaillant.it/home/">
+                            <img class="img-responsive img-portfolio img-hover" src="images/loghi/solar/Vaillant.png" alt="Brand utilizzato da Sian Tecnology - Vaillant Italia">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-2 pagination-centered text-center">
+                        <a href="http://www.junkers.it/privati/privatihome">
+                            <img class="img-responsive img-portfolio img-hover" src="images/loghi/solar/Junkers.png" alt="Brand utilizzato da Sian Tecnology - Junkers">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-2 pagination-centered text-center">
+                        <a href="http://www.4-noks.com/">
+                            <img class="img-responsive img-portfolio img-hover" src="images/loghi/solar/4-noks.png" alt="Brand utilizzato da Sian Tecnology - 4 Noks">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-2 pagination-centered text-center">
+                        <a href="http://www.solar-log.it/">
+                            <img class="img-responsive img-portfolio img-hover" src="images/loghi/solar/Solar-log.png" alt="Brand utilizzato da Sian Tecnology - SolarLog Italia">
+                        </a>
+                    </div>
                 </div>
             </div>
+            <!-- /.row -->
+            <hr>
+            <div class="page-header h1" style="margin-left:1%;margin-right:1%;">Lavora con noi</div>
+            <!-- Call to Action -->
+            <div class="well shadow">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>Contattaci e potremmo esserti d'aiuto!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="btn btn-lg btn-default btn-block" href="curriculum.html">Contattaci</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <a href="contact.html"><img class="img-fluid" src="images/Sian-mini.png" width="10%" height="10%" alt="Logo Sian Tecnology SRL" style="margin-top:-4%;"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        40 Via Aurelia Nord Viareggio, LU 55049 -
+                        <i class="fa fa-phone"></i>
+                        <abbr title="Telefono">T</abbr>: (0584) 370888 <i class="fa fa-envelope-o"></i>-
+                        <abbr title="Email"> E</abbr>: <a href="mailto:info@siansrl.com">info@siansrl.com</a>
+                    </div>
+                </div>
+
+                <hr>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; Sian Tecnology SRL - 2014-2016</p>
+                    </div>
+                </div>
+            </footer>
+            <!-- /.container -->
+
+            <!-- jQuery -->
+            <script src="js/jquery.js"></script>
+            <script src="js/jquery.nicescroll.js"></script>
+            <script>
+                $(document).ready(
+                    function () {
+                        $("html").niceScroll();
+                    }
+                );
+            </script>
+
+            <!-- Bootstrap Core JavaScript -->
+            <script src="js/bootstrap.min.js"></script>
+
+            <!-- Script to Activate the Carousel -->
+            <script>
+                $('.carousel').carousel({
+                    interval: 7000 //changes the speed
+                })
+            </script>
         </div>
 
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Sian Tecnology SRL - 2014-2016</p>
-                </div>
-            </div>
-        </footer>
-
+        <!--Start of Tawk.to Script-->
+        <script>
+            var Tawk_API = Tawk_API || {},
+                Tawk_LoadStart = new Date();
+            (function () {
+                var s1 = document.createElement("script"),
+                    s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/56d59cac343e11f1034e44dc/default';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
     </div>
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.nicescroll.js"></script>
-    <script>
-        $(document).ready(
-
-            function () {
-
-                $("html").niceScroll();
-
-            }
-
-        );
-    </script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-        $('.carousel').carousel({
-            interval: 5000 //changes the speed
-        })
-    </script>
 </body>
 
 </html>
